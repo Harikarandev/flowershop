@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="index.css">
+    <!-- <script src="https://momentjs.com/downloads/moment.min.js"></script> -->
+</head>
+
+
+<body>
+   <nav class="navbar  fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid navbar-ext" >
+        <a class="navbar-brand" href="index.html"><img src='https://img.freepik.com/free-vector/lotus-flower-logo-icon-linear-style_126523-708.jpg' height='25px' alt="Netfilx"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Contact</a>
+            </li>
+          </ul>
+         
+        </div>
+        <div class="menu-navigation">
+          <ul class="navmenu-nav">
+            <li><div class="nav-item dropdown">
+              Account<a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="javascript:void(0)">Profile</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Account Settings</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Logout</a></li>
+              </ul>
+            </div></li>
+          </ul>
+            
+            </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="order" id="order" style="display: none;"></div>
+        <div class="content-info" id="contents"> 
+            <div class="subcontent">
+
+                <div class="description">
+                    <h3>FLower Shop...</h3>
+                    <p>Every time you see these blooms, remember someone is thinking of you!</p>
+                </div>     
+                <div class="button btn-three">
+                    <span>Shop Now</span>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="arrivals">
+            <div class="heading1">
+                <h4>New Arrivals!</h4>
+            </div>
+            <div class="slideshow">
+               
+
+
+<div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          
+          
+  <div class="row">
+      
+      <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://i.pinimg.com/564x/50/d4/ef/50d4efac80180afec22b52208368e3db.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p >Rose</p>
+                <a href="javascript:void(0)" target="_self" onclick="buynow(`https://i.pinimg.com/564x/50/d4/ef/50d4efac80180afec22b52208368e3db.jpg,Rose,$299`)" class="btn btn-primary">$299</a>
+              </div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://i.pinimg.com/564x/a3/e0/5b/a3e05b61582cb7fbdb74c921f68882e8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p>Dahlia</p>
+                <a href="javascript:void(0)" target="_self" onclick="buynow(`https://i.pinimg.com/564x/a3/e0/5b/a3e05b61582cb7fbdb74c921f68882e8.jpg,Dahlia,$299`)" class="btn btn-primary" >$299</a>
+              </div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://i.pinimg.com/564x/91/30/40/913040ab1401949f9721ef87891289a9.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p>Daisy</p>
+                <a href="javascript:void(0)" target="_self" onclick="buynow(`https://i.pinimg.com/564x/91/30/40/913040ab1401949f9721ef87891289a9.jpg,Daisy,$299`)" class="btn btn-primary" >$299</a>
+              </div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://i.pinimg.com/564x/cb/e2/98/cbe2983294b0aae994b9c468e4c60cf7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p>Lily</p>
+                <a href="javascript:void(0)" target="_self" onclick="buynow(`https://i.pinimg.com/564x/cb/e2/98/cbe2983294b0aae994b9c468e4c60cf7.jpg,Lily,$299`)" class="btn btn-primary" >$299</a>
+              </div>
+         </div>
+      </div>
+  </div>          
+</div>
+<div class="carousel-item">         
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://i.pinimg.com/564x/dd/d4/2d/ddd42db336541f4badb55ead2ba0e0bf.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p>Nine Favourite's</p>
+              <a href="javascript:void(0)" target="_self" onclick="buynow(`https://i.pinimg.com/564x/dd/d4/2d/ddd42db336541f4badb55ead2ba0e0bf.jpg,Nine Favourite's,$299`)" class="btn btn-primary" >$299</a>
+            </div>
+       </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://i.pinimg.com/564x/50/d4/ef/50d4efac80180afec22b52208368e3db.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p>Flower1</p>
+              <a href="javascript:void(0)" target="_self" onclick="buynow()" class="btn btn-primary" >$299</a>
+            </div>
+       </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://i.pinimg.com/564x/50/d4/ef/50d4efac80180afec22b52208368e3db.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p>Flower1</p>
+              <a href="javascript:void(0)" target="_self" onclick="buynow()" class="btn btn-primary" >$299</a>
+            </div>
+       </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://i.pinimg.com/564x/50/d4/ef/50d4efac80180afec22b52208368e3db.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p>Flower1</p>
+              <a href="javascript:void(0)" target="_self" onclick="buynow()" class="btn btn-primary" >$299</a>
+            </div>
+       </div>
+    </div>
+      
+   
+      
+  </div>
+      
+          
+      </div>
+      
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+  
+  
+  
+            
+
+        </div>
+        <div class=" container products" id="products">
+            <div class="heading2">
+                <h4>Our Products</h4>
+            </div>
+            <div class="items">
+                
+
+            </div>
+        </div>
+      </div>
+        <div class="footer" id="footer">
+
+        </div>
+    <script src="index.js"></script>
+    <script>
+  //       $(document).ready(function(){
+  //   $(window).scroll(function(){
+  //       var scroll = $(window).scrollTop();
+  //       if (scroll > 50) {
+  //         $(".navbar").css("background" , "#000");
+  //       }
+  
+  //       else{
+  //           $(".navbar").css("background" , "transparent");  	
+  //       }
+  //   });
+  // });
+  
+  
+    </script>
+</body>
+</html
